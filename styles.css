@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: 0px;
+    font-family: Inter, 'Sans-Serif';
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    background-image: url("cali-wallpaper.jpg");
+    background-size: cover;
+    height: 423px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+header h1, header h2  {
+    background-color: #B08968;
+    padding: 5px 10px;
+    border-bottom: solid 3px #7F5539;
+    border-radius: 6px;
+}
+
+#main-article div h2 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+#main-article {
+    background-color: #EDE0D4;
+    padding-bottom: 50px;
+}
+
+#to-do {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.info-container {
+    transition: box-shadow 1.25s;
+    border: none;
+    height: 400px;
+    width: 400px;
+}
+
+
+.right {
+    height: 240px;
+    padding: 20px;
+    border-radius: 0 0 10px 10px ;
+    background-color: #DDB892;
+}
+
+.left {
+    border-radius: 10px 10px 0 0 ;
+    height: 40%;
+}
+
+.info-container:hover {
+    box-shadow: 5px 10px 8px #302f2f;
+}
+
+#cat {
+    background-image: url('cali-gato.jpg');
+    background-size: cover;
+}
+
+#ice-cream{
+    background-image: url('cali-cholado.jpg');
+    background-size: cover;
+}
+
+#festival {
+    background-image: url('festival-cali.jpg');
+    background-size: cover;
+}
+
+#card-guide {
+    width: 500px;
+    height: 250px;
+    margin: 0 auto;
+    background-color: #B08968;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#tour-section {
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+
+img {
+    width: 150px;
+    height: 200px;
+    border: #7F5539 solid 3px;
+}
+
+.test {
+    height: 100%;
+}
+
+.text {
+    width: 200px;
+}
+
+#card-guide > div.text > p {
+    margin: 20px 0px;
+}
