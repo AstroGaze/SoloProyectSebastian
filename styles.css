@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
 }
+
 body {
     margin: 0px;
     font-family: Inter, 'Sans-Serif';
@@ -61,6 +62,7 @@ header h1, header h2  {
     padding: 20px;
     border-radius: 0 0 10px 10px ;
     background-color: #DDB892;
+    border-bottom: #7F5539 5px solid;
 }
 
 .left {
@@ -119,4 +121,25 @@ img {
 
 #card-guide > div.text > p {
     margin: 20px 0px;
+}
+
+.info-container .right h4 {
+    margin-bottom: 10px;
+}
+
+.info-container .right p {
+    margin-top: 10px;
+}
+
+hr {
+    background-color: #7F5539;
+    width: 90%;
+    text-align: center;
+    height: 3px;
+    border: none;
+    margin: 0 auto;
+}
+
+p {
+    overflow-wrap: break-word;
 }
